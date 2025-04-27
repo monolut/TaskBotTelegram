@@ -39,21 +39,21 @@
 
 🛠️ Installation and Setup
 
-    Clone the repository:
+Clone the repository:
 
-git clone https://github.com/your-link/taskbot.git
-cd taskbot
+    git clone https://github.com/your-link/taskbot.git
+    cd taskbot
 
-    Configure your application.properties file:
+Configure your application.properties file:
 
-spring.application.name=taskBot
-bot.name=TaskBot
-bot.token=YOUR_BOT_TOKEN_FROM_BOTFATHER
+    spring.application.name=taskBot
+    bot.name=TaskBot
+    bot.token=YOUR_BOT_TOKEN_FROM_BOTFATHER
 
-    Build and run the project:
+Build and run the project:
 
-./mvnw spring-boot:run
+    ./mvnw spring-boot:run
 
 Or run it from your IDE (e.g., IntelliJ IDEA) by executing TaskBotApplication.java.
 
-    Register the bot on Telegram via @BotFather.
+Register the bot on Telegram via @BotFather.
